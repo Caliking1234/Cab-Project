@@ -24,57 +24,59 @@ const LandingPage = () => {
     <>
       <div className="fitin">
         <div className="bgg">
-          <div className="landingPageHeading">
-            <h1>TERMINAL</h1>
-            <div className="headingIcons">
-              <i>
-                <HailIcon
-                  fontSize="large"
-                  style={{
-                    marginTop: 15,
-                    marginLeft: 15,
-                    marginRight: -10,
-                    fontSize: 50,
-                    color: "aliceblue",
-                  }}
-                />
-              </i>
-              <i>
-                <LocalTaxiIcon
-                  fontSize="large"
-                  style={{
-                    marginTop: 15,
-                    marginLeft: 10,
-                    fontSize: 70,
-                    color: "aliceblue",
-                  }}
-                />
-              </i>
-              <i>
-                <EmojiPeopleIcon
-                  fontSize="large"
-                  style={{
-                    marginTop: 15,
-                    marginLeft: -10,
-                    fontSize: 50,
-                    color: "aliceblue",
-                  }}
-                />
-              </i>
+          <div style={{ minHeight: "100vh" }}>
+            <div className="landingPageHeading">
+              <h1>TERMINAL</h1>
+              <div className="headingIcons">
+                <i>
+                  <HailIcon
+                    fontSize="large"
+                    style={{
+                      marginTop: 15,
+                      marginLeft: 15,
+                      marginRight: -10,
+                      fontSize: 50,
+                      color: "aliceblue",
+                    }}
+                  />
+                </i>
+                <i>
+                  <LocalTaxiIcon
+                    fontSize="large"
+                    style={{
+                      marginTop: 15,
+                      marginLeft: 10,
+                      fontSize: 70,
+                      color: "aliceblue",
+                    }}
+                  />
+                </i>
+                <i>
+                  <EmojiPeopleIcon
+                    fontSize="large"
+                    style={{
+                      marginTop: 15,
+                      marginLeft: -10,
+                      fontSize: 50,
+                      color: "aliceblue",
+                    }}
+                  />
+                </i>
+              </div>
             </div>
-          </div>
-          <div className="intoText">
-            <div className="margins">
-              <h1>India's First Cab Sharing Platform</h1>
-              <p>Divided by Apps United By Us</p>
-            </div>
-            <div className="btns">
-              <button className="btn1" onClick={form}>
-                Book Ride
-              </button>
-              <button className="btn2" onClick={loginn}>
-                Log In
-              </button>
+            <div className="intoText">
+              <div className="margins">
+                <h1>India's First Cab Sharing Platform</h1>
+                <p>Divided by Apps United By Us</p>
+              </div>
+              <div className="btns">
+                <button className="btn1" onClick={form}>
+                  Book Ride
+                </button>
+                <button className="btn2" onClick={loginn}>
+                  Log In
+                </button>
+              </div>
             </div>
           </div>
           <div className="introSubHeading">
