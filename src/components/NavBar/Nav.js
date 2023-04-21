@@ -15,7 +15,7 @@ function Nav() {
 
         <div className="flex-nav">
           <li className="active">
-            <Link to={"/"}>Home</Link>
+            <Link to={"/Cab-Project"}>Home</Link>
           </li>
           <li>
             <Link to={"/pricing"}>Pricing</Link>
