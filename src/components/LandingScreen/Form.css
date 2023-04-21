@@ -1,0 +1,144 @@
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.form-box {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background: transparent;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: aliceblue;
+    text-align: center;
+}
+
+.form-value form{
+    text-align: center;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px auto;
+    width: 310px;
+    border-bottom: 2px solid aliceblue;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: aliceblue;
+    font-size: 1.5rem;
+    pointer-events: none;
+    transition: .25s ease-in;
+}
+
+.inputbox input:focus~label,
+.inputbox input:valid~label {
+    top: -5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* .inputbox label span{
+    position: absolute;
+    opacity: 1;
+    top: -5px;
+    font-size: 16px;
+    font-weight: 600;
+} */
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 0 35px 0 5px;
+    color: aliceblue;
+}
+
+.inputbox i {
+    position: absolute;
+    right: 8px;
+    color: aliceblue;
+    font-size: 1.2rem;
+    top: 20px;
+}
+
+.opa{
+    opacity: 0;
+}
+
+/* .inputbox input[type="date"]:focus~.opa,
+.inputbox input[type="date"]:valid~.opa {
+    opacity: 1;
+} */
+
+.inputbox input:focus~.opa,
+.inputbox input:valid~.opa {
+    opacity: 1;
+}
+
+input[type="date"]{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+::-webkit-calendar-picker-indicator{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2rem;
+    top: 20px;
+    opacity: 0;
+    z-index: 5;
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background: aliceblue;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+@media (max-width:412px) {
+    .form-box {
+        width: 300px;
+        height: 500px;
+    }
+
+    .inputbox {
+        width: 240px;
+    }
+
+    .form-value form {
+        margin: 0 auto;
+    }
+}
