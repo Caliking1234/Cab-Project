@@ -28,7 +28,7 @@ const Form = () => {
                   <i>
                     <LocationOnOutlinedIcon />
                   </i>
-                  <input type="password" required />
+                  <input type="text" required />
                   <label>Drop Location</label>
                 </div>
                 <div className="inputbox">
