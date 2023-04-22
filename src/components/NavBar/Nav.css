@@ -28,7 +28,7 @@
     transition: all 0.5s ease;
 }
 
-.flex-nav li:hover a {
+.flex-nav li:hover a,.flex-nav li:active a {
     letter-spacing: 1px;
     font-weight: 900;
     border-bottom: 2px solid wheat;
@@ -86,12 +86,12 @@
         margin: auto;
     }
 
-    .flex-nav li:hover{
+    .flex-nav li:hover, .flex-nav li:active{
         border: 1px solid white;
         background: white;
     }
 
-    .flex-nav li:hover a {
+    .flex-nav li:hover a,.flex-nav li:active a {
         color: black;
         border-bottom: none;
     }
