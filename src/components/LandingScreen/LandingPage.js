@@ -5,6 +5,7 @@ import LocalTaxiIcon from "@mui/icons-material/LocalTaxi";
 import EmojiPeopleIcon from "@mui/icons-material/EmojiPeople";
 import HailIcon from "@mui/icons-material/Hail";
 import Footer from "../FooterScreen/Footer";
+import bgImg from "../../images/bg-img8.png";
 import { useNavigate } from "react-router-dom";
 // import Nav from "../NavBar/Nav";
 // import Form from "./Form"
@@ -24,7 +25,7 @@ const LandingPage = () => {
     <>
       <div className="fitin">
         <div className="bgg">
-          <div style={{ minHeight: "100vh" }}>
+          <div className="tempClass">
             <div className="landingPageHeading">
               <h1>TERMINAL</h1>
               <div className="headingIcons">

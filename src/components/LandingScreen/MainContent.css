@@ -38,7 +38,7 @@
     border-radius: 5px;
 }
 
-.box-container:hover{
+.box-container:hover, .box-container:active{
     box-shadow: 0 8px 22px 0 rgba(0, 0, 0, 0.45);
 }
 
@@ -105,7 +105,7 @@
     border-radius: 5px;
 }
 
-.card:hover{
+.card:hover, .card:active{
     box-shadow: 0 8px 22px 0 rgba(0,0,0,0.45);
 }
 
@@ -167,7 +167,7 @@
     transition: all 0.5s ease;
 }
 
-.card label:hover{
+.card label:hover, .card:active{
     background: black;
     letter-spacing: 0.5px;
 }
