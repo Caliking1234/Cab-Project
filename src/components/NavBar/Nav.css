@@ -123,7 +123,7 @@
         opacity: 1;
         background: transparent;
         backdrop-filter: blur(20px);
-        clip-path: circle(1000px at 90% -20%);
-        -webkit-clip-path: circle(1000px at 90% -20%);
+        clip-path: circle(1100px at 90% -20%);
+        -webkit-clip-path: circle(1100px at 90% -20%);
     }
 }
