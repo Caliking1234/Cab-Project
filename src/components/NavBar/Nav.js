@@ -14,7 +14,7 @@ function Nav() {
         <input type="checkbox" id="check" />
 
         <div className="flex-nav">
-          <li className="active">
+          <li>
             <Link to={"/Cab-Project"}>Home</Link>
           </li>
           <li>
