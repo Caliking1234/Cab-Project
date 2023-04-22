@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Cab-Project/static/css/main.095e7513.css",
-    "main.js": "/Cab-Project/static/js/main.bffd4b27.js",
+    "main.css": "/Cab-Project/static/css/main.e9aa406f.css",
+    "main.js": "/Cab-Project/static/js/main.9f3014dc.js",
     "static/js/787.cda612ba.chunk.js": "/Cab-Project/static/js/787.cda612ba.chunk.js",
     "static/media/bg-img1.png": "/Cab-Project/static/media/bg-img1.485922de70fe552a1e77.png",
     "static/media/bg-img3.jpg": "/Cab-Project/static/media/bg-img3.528bb1862bb2d05c4bf9.jpg",
     "index.html": "/Cab-Project/index.html",
-    "main.095e7513.css.map": "/Cab-Project/static/css/main.095e7513.css.map",
-    "main.bffd4b27.js.map": "/Cab-Project/static/js/main.bffd4b27.js.map",
+    "main.e9aa406f.css.map": "/Cab-Project/static/css/main.e9aa406f.css.map",
+    "main.9f3014dc.js.map": "/Cab-Project/static/js/main.9f3014dc.js.map",
     "787.cda612ba.chunk.js.map": "/Cab-Project/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.095e7513.css",
-    "static/js/main.bffd4b27.js"
+    "static/css/main.e9aa406f.css",
+    "static/js/main.9f3014dc.js"
   ]
 }
