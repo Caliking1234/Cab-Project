@@ -167,7 +167,7 @@
     transition: all 0.5s ease;
 }
 
-.card label:hover, .card:active{
+.card label:hover, .card label:active{
     background: black;
     letter-spacing: 0.5px;
 }

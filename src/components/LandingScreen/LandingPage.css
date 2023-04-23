@@ -101,20 +101,27 @@
     text-align: center;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     flex-direction: row;
 }
 
+.SubheadingLists > *{
+    flex: 1 1 50%;
+}
+
 .introSubHeading h1{
+
     color: aliceblue;
     font-size: 30px;
     font-weight: 900;
-    padding: 15px;
+    margin: 15px;
 }
 
 .SubheadingLists h3{
-    padding: 15px;
+    margin: 10px 0;
+    padding: 5px;
     font-weight: 500;
     color: aliceblue;
 }

@@ -85,14 +85,14 @@ const LandingPage = () => {
             <div className="SubheadingLists">
               <h3>No Return Fare</h3>
               <h3>No Extra Costs</h3>
-            </div>
-            <div className="SubheadingLists">
               <h3>Friendly Staff</h3>
               <h3>Flexible Rentals</h3>
-            </div>
-            <div className="SubheadingLists">
               <h3>Easy to Make Book Taxi</h3>
             </div>
+            {/* <div className="SubheadingLists">
+            </div>
+            <div className="SubheadingLists">
+            </div> */}
           </div>
         </div>
       </div>
